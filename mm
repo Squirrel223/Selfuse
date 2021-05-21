@@ -5,184 +5,1557 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1732, server: 13.72.215.124, port: 20609, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1738, server: 40.83.118.109, port: 20770, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false}
-  - {name: Relay_ |29.90Mb, server: 40.83.118.109, port: 20770, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1598 |27.67Mb, server: 137.116.162.112, port: 2020, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1731, server: 137.116.162.112, port: 2020, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 🇭🇰 HK_1728, server: 18.167.37.144, port: 29855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 18.167.37.144}}
-  - {name: 🇳🇱 Pool_🇳🇱NL_2451, server: 154.84.1.23, port: 443, type: vmess, uuid: f3875942-e838-4d0a-82fd-59e785941b63, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.23}}
-  - {name: 🇸🇬 Relay_🇺🇸US-🇸🇬SG_2444 |15.99Mb, server: v1-aws-sg-03.tudog.me, port: 80, type: vmess, uuid: 3dbe8ef8-0d92-3d40-9ce9-329677fa796c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-03.tudog.me}}
-  - {name: Relay_ |23.02Mb, server: 23.224.8.82, port: 443, type: vmess, uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.78651322.xyz}}
-  - {name: IN_1989, server: 15.206.100.195, port: 80, type: vmess, uuid: 16e23631-c06f-3d91-b66c-5683d3149aa9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: a.189.cn}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1604 |20.39Mb, server: 137.116.162.112, port: 2019, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: Relay_ |26.80Mb, server: jm.mfjlb.top, port: 51011, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jm.mfjlb.top}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_1601 |22.29Mb, server: 137.116.162.112, port: 2018, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_588, server: jy.nkeo.top, port: 53021, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jy.nkeo.top}}
-  - {name: "|25.71Mb", server: 15.206.100.195, port: 80, type: vmess, uuid: 16e23631-c06f-3d91-b66c-5683d3149aa9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: a.189.cn}}
-  - {name: 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_575, server: 52.80.138.63, port: 49855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.80.138.63}}
-  - {name: 🇸🇬 Relay_🇺🇸US-🇸🇬SG_4166, server: sg1.freeman.xyz.cdn.cloudflare.net, port: 2052, type: vmess, uuid: fc62aed1-57b0-3956-bf63-2412f1e49702, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /bashwlsxxswa, ws-headers: {Host: sg1.freeman.xyz}}
-  - {name: 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_587, server: jm.mfjlb.top, port: 51011, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jm.mfjlb.top}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_514, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name: Relay_ |29.21Mb, server: 18.141.202.17, port: 10001, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: 🇨🇳 中国, server: 116.192.169.155, port: 10004, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国 2, server: 116.192.169.155, port: 10001, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|35.82Mb", server: 120.209.136.73, port: 10080, type: vmess, uuid: 34e9868d-7cf9-44ec-b42d-13da9c95d00e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.209.136.73}}
+  - {name: 🇭🇰 *Shanghai-Hong Kong*22, server: 139.226.50.32, port: 10005, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "*Shanghai-Taipei*22", server: 139.226.50.32, port: 10004, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "*Shanghai-Tokyo*22", server: 139.226.50.32, port: 10001, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "*Shanghai-LAX*22", server: 139.226.50.32, port: 10003, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国台湾, server: 139.226.50.32, port: 10004, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 中国香港, server: 139.226.50.32, port: 10005, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国 3, server: 139.226.50.32, port: 10003, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本, server: 139.226.50.32, port: 10001, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "*Shanghai-Seoul*22", server: 139.226.50.32, port: 10002, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇵 朝鲜, server: 139.226.50.32, port: 10002, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 🚀, server: 40.83.118.109, port: 20770, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_765, server: jm.mfjlb.top, port: 51011, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jm.mfjlb.top}}
+  - {name: 🇭🇰 Transit*Shanghai-HK*CN2-GIA04, server: shcn2-04b.iplc188.com, port: 10001, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 🚀 2, server: 23.101.9.250, port: 20730, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 🚀 3, server: 23.101.9.250, port: 20629, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 高速-kr, server: 193.122.108.245, port: 14195, type: vmess, uuid: 65cf695e-e9b5-48b3-9c9f-a560f3c6bba2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 HK_1852, server: 42.2.143.119, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: 🇨🇳 台湾, server: tw02.xqkj.cloud, port: 5084, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: tw02.xqkj.cloud}}
+  - {name: 🇨🇳 高速-tw, server: etproxypool.tk, port: 80, type: vmess, uuid: 3b234517-bab8-41aa-8550-6a38654760cd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 2, server: zj3c.nat.1.coalcloud.xyz, port: 20424, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 高速-hk, server: gcplink.tk, port: 80, type: vmess, uuid: 7e48ed25-1abe-4cc0-ee4c-cc89785243b1, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港, server: hk02.xqkj.cloud, port: 5081, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: hk02.xqkj.cloud}}
+  - {name: 🇭🇰 香港 2, server: hk04.xqkj.cloud, port: 5082, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: hk04.xqkj.cloud}}
+  - {name: 🇨🇳 台湾 2, server: tw04.xqkj.cloud, port: 5007, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: tw04.xqkj.cloud}}
+  - {name: 🇭🇰 HK_28 |25.61Mb, server: 18.167.90.167, port: 10005, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 🇨🇳 台湾 3, server: tw01.xqkj.cloud, port: 5083, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: tw01.xqkj.cloud}}
+  - {name: 45.66.164.121:811, server: 45.66.164.121, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1707, server: 18.167.90.167, port: 10003, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: 🇭🇰 高速-hk 2, server: gcplink.cf, port: 80, type: vmess, uuid: 45d9a1d3-cd47-40a7-8931-48461edadf5d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇯🇵 日本 3, server: jp01.xqkj.cloud, port: 5086, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: jp01.xqkj.cloud}}
+  - {name: 🇸🇬 新加坡, server: sg01.xqkj.cloud, port: 5089, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: sg01.xqkj.cloud}}
+  - {name: 🇯🇵 日本 4, server: jp02.xqkj.cloud, port: 5087, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: jp02.xqkj.cloud}}
+  - {name: 🇸🇬 新加坡 2, server: v1-aws-sg-04.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-04.tudog.me}}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2848, server: v1-aws-sg-09.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-09.tudog.me}}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: 470b1cfb-f116-3d9f-bcf0-cc939a505150, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: 🇰🇷 CN-🇰🇷KR_247, server: cjzz.lygvpn.xyz, port: 31080, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-🇸🇬SG_591, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: 470b1cfb-f116-3d9f-bcf0-cc939a505150, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987, server: v1-aws-sg-05.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-05.tudog.me}}
+  - {name: 104.200.131.245:49396, server: 104.200.131.245, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986, server: v1-aws-sg-10.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-10.tudog.me}}
+  - {name: 104.200.131.245:33998, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 185.124.240.159:38742, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 104.200.131.245:33998 2, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 185.124.240.149:39772, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 185.124.240.149:39772 2, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 185.124.240.159:38742 2, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 185.124.240.159:38742 3, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 185.124.240.159:33998, server: 185.124.240.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 104.200.131.245:31944, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 104.200.131.245:31944 2, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: c9e02a22-c4b8-39bd-b774-05b41559487a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: 🇺🇸 美国 🚀, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3, server: 03.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 21d8a117-0563-4083-84d5-e0f36e600cba, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 03.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇺🇸 美国 🚀 2, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 185.124.240.159:33998 2, server: 185.124.240.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: https://www.mattkaydiary.com, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 34.244.63.147:803, server: 34.244.63.147, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 US_897, server: 23.225.57.203, port: 443, type: vmess, uuid: 811782d9-6cdb-45dd-9448-1ec4c47ad564, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.34428394.xyz}}
+  - {name: 185.124.240.159:49126, server: 185.124.240.159, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸 US, server: 104.19.45.116, port: 443, type: vmess, uuid: dbb1253f-c663-42b0-a3bf-ceae0e8d0e46, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ceae0e8d0e46, ws-headers: {Host: 35044ac9a120f4dd5.spbohk.com}}
+  - {name: 185.124.240.159:33998 3, server: 185.124.240.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 US_899, server: 23.224.69.3, port: 443, type: vmess, uuid: 538d3b28-f335-4a0a-bda8-b5065fb1bfb7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.39930935.xyz}}
+  - {name: https://www.mattkaydiary.com 2, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 US 2, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇺🇸 美国 加利福尼亚, server: 23.225.9.252, port: 443, type: vmess, uuid: 2dd19ba3-f6d8-4562-8153-03ea94335111, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.38559541.xyz}}
+  - {name: 🇺🇸 美国 🚀 3, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 加利福尼亚 2, server: 23.224.8.82, port: 443, type: vmess, uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.78651322.xyz}}
+  - {name: 🇺🇸 美国 加利福尼亚 3, server: 23.225.98.115, port: 443, type: vmess, uuid: cd04efa2-b14c-4de3-adde-a23e4d7a60dc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.46815547.xyz}}
+  - {name: 🇺🇸 US-🇺🇸US_898, server: 23.224.8.82, port: 443, type: vmess, uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.78651322.xyz}}
+  - {name: https://www.mattkaydiary.com 3, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://www.mattkaydiary.com 4, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇺🇸 Pool_🇺🇸US_4205, server: 23.224.69.3, port: 443, type: vmess, uuid: 538d3b28-f335-4a0a-bda8-b5065fb1bfb7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.39930935.xyz}}
+  - {name: 🇺🇸 美国 加利福尼亚 4, server: 23.224.69.18, port: 443, type: vmess, uuid: 76003e21-7cce-430a-a823-428a7f012aa2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.76126449.xyz}}
+  - {name: 167.88.63.29:806, server: 167.88.63.29, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 207.244.67.149:39772, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4055, server: 104.19.192.19, port: 443, type: vmess, uuid: 62af99c3-0874-40a8-bb0c-15708625d2bf, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /iue/l2vesav, ws-headers: {Host: cf.souji.ga}}
+  - {name: https://www.mattkaydiary.com 5, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4198, server: 23.224.8.82, port: 443, type: vmess, uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.78651322.xyz}}
+  - {name: 207.244.67.149:39772 2, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 🚀 4, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 198.147.22.87:31757, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 🇺🇸 US_4204, server: 107.148.198.130, port: 443, type: vmess, uuid: 4df2e984-1d0d-40ec-8af0-6a746fea2e0e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17379738.xyz}}
+  - {name: 🇭🇰 US-🇭🇰HK_909, server: 104.19.45.116, port: 443, type: vmess, uuid: dbb1253f-c663-42b0-a3bf-ceae0e8d0e46, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ceae0e8d0e46, ws-headers: {Host: 35044ac9a120f4dd5.spbohk.com}}
+  - {name: 🇺🇸 US_4202, server: 23.224.69.18, port: 443, type: vmess, uuid: 76003e21-7cce-430a-a823-428a7f012aa2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.76126449.xyz}}
+  - {name: 🇺🇸 美国 加利福尼亚 5, server: 23.224.69.3, port: 443, type: vmess, uuid: 538d3b28-f335-4a0a-bda8-b5065fb1bfb7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.39930935.xyz}}
+  - {name: 🇺🇸 美国 加利福尼亚 6, server: 23.225.57.203, port: 443, type: vmess, uuid: 811782d9-6cdb-45dd-9448-1ec4c47ad564, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.34428394.xyz}}
+  - {name: 🇺🇸 美国, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.09025120.xyz}}
+  - {name: 欧洲 🚀, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 207.244.67.149:33998, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 89.43.107.130:809, server: 89.43.107.130, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 (已坚挺3天)美国, server: winter-moon-868f.mianfei0101.workers.dev, port: 443, type: vmess, uuid: cd806887-2d26-7654-98b6-ac85cc8521f7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: winter-moon-868f.mianfei0101.workers.dev}}
+  - {name: 207.244.67.149:39772 3, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国 🚀, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 207.244.67.149:33998 2, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 美国 🚀 5, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: "|15.13Mb", server: 104.19.192.19, port: 443, type: vmess, uuid: 62af99c3-0874-40a8-bb0c-15708625d2bf, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /iue/l2vesav, ws-headers: {Host: cf.souji.ga}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_910, server: 173.82.240.245, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
+  - {name: 🇺🇸 (已坚挺20天)美国, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.09025120.xyz}}
+  - {name: 34.244.63.147:804, server: 34.244.63.147, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 美国 加利福尼亚 7, server: 137.175.58.42, port: 443, type: vmess, uuid: 3f2ed494-f7a0-4563-bba5-4ab44fde87e6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.62884913.xyz}}
+  - {name: 🇷🇺 俄罗斯, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 138.199.42.163:31572, server: 138.199.42.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 34.244.63.147:812, server: 34.244.63.147, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 198.147.22.87:33992, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 34.244.63.147:809, server: 34.244.63.147, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 34.244.63.147:804 2, server: 34.244.63.147, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 198.147.22.87:31572, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 34.244.63.147:812 2, server: 34.244.63.147, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 198.147.22.87:40093, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 198.147.22.87:31572 2, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 139.28.176.53:31572, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 34.244.63.147:802, server: 34.244.63.147, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 34.244.63.147:801, server: 34.244.63.147, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 198.147.22.87:33998, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 198.147.22.87:31757 2, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 198.147.22.87:40093 2, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲 🚀 2, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 185.124.240.149:39772 3, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2078, server: v1-aws-jp-10.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-10.tudog.me}}
+  - {name: 🇫🇮 芬兰 🚀, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇯🇵 |【直连】NRT/东京 A - 1, server: 21.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 21d8a117-0563-4083-84d5-e0f36e600cba, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 21.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇩🇪 德国 🚀 2, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: Relay_ |29.45Mb, server: v1-aws-jp-10.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-10.tudog.me}}
+  - {name: 🇯🇵 日本 5, server: jp03.xqkj.cloud, port: 5088, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: jp03.xqkj.cloud}}
+  - {name: 198.147.22.87:33998 2, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹, server: 154.84.1.37, port: 443, type: vmess, uuid: bad6de34-e23e-4a56-a162-f9b524447cc2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.59438416.xyz}}
+  - {name: 198.147.22.87:31572 3, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 139.28.176.53:31572 2, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 198.147.22.87:31572 4, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 |【直连】NRT/东京 A - 4, server: 24.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 21d8a117-0563-4083-84d5-e0f36e600cba, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 24.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 198.147.22.87:40093 3, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇯🇵 |【直连】NRT/东京 B - 2, server: 27.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 21d8a117-0563-4083-84d5-e0f36e600cba, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 27.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 198.147.22.87:31757 3, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 198.147.22.87:33148, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 198.147.22.87:33148 2, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 45.87.214.253:49126, server: 45.87.214.253, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 198.147.22.87:33992 2, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 2, server: 46.182.107.17, port: 443, type: vmess, uuid: 45ef0cc8-1a31-453d-9b4c-f66eaa6daa86, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.44985428.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 3, server: 154.84.1.142, port: 443, type: vmess, uuid: ab594acc-2624-472f-a7a1-b7fe284776e7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.40983279.xyz}}
+  - {name: 🇳🇱 NL_488, server: 154.84.1.238, port: 443, type: vmess, uuid: 5599a700-4f47-4673-b2c8-a4d9460ab0be, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.84849018.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 4, server: 154.84.1.238, port: 443, type: vmess, uuid: 5599a700-4f47-4673-b2c8-a4d9460ab0be, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.84849018.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 5, server: 154.84.1.180, port: 443, type: vmess, uuid: 0f55100c-8abb-4542-9e5a-ff7d8120e43d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.29899295.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 6, server: 154.84.1.33, port: 443, type: vmess, uuid: 0165667d-54f2-479e-9bd7-e5548edc3194, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.44186580.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 7, server: 154.84.1.163, port: 443, type: vmess, uuid: c0b06dcf-ab46-454f-b173-4afadd9f56c8, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.53151238.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 8, server: 154.84.1.151, port: 443, type: vmess, uuid: fabb69a2-3fab-42ab-ab3f-048d51c8d010, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.58613279.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 9, server: 154.84.1.150, port: 443, type: vmess, uuid: b6a1fc1e-5e56-47d5-b1af-76a3d81def37, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.24826945.xyz}}
+  - {name: 🇫🇮 芬兰 🚀 2, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 10, server: 46.182.107.11, port: 443, type: vmess, uuid: b438dc80-6336-4717-a770-7cb2068971aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.46352799.xyz}}
+  - {name: 194.41.112.14:39772, server: 194.41.112.14, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 135.125.248.215:811, server: 135.125.248.215, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 146.59.0.168:801, server: 146.59.0.168, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 146.59.0.168:809, server: 146.59.0.168, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇳🇱 NL_500, server: 154.84.1.31, port: 443, type: vmess, uuid: 82e9f17c-cac2-45da-9c07-2967980a32a6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00225384.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 11, server: 154.84.1.68, port: 443, type: vmess, uuid: 29f57ecb-1331-42a3-a635-4ad70f5fce32, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.19668223.xyz}}
+  - {name: 🇳🇱 Pool_🇳🇱NL_2510, server: 154.84.1.175, port: 443, type: vmess, uuid: c49d20c4-aabb-4caa-9f75-538316b8e97a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.23439261.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 12, server: 154.84.1.181, port: 443, type: vmess, uuid: 2a3b4685-7deb-4388-a96a-fac9ee08ad63, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.57741322.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 13, server: 154.84.1.23, port: 443, type: vmess, uuid: f3875942-e838-4d0a-82fd-59e785941b63, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11314085.xyz}}
+  - {name: 🇳🇱 NL_480, server: 154.84.1.35, port: 443, type: vmess, uuid: 0415746c-4d6b-49fb-9a8a-e74ad6172d3d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00722542.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 14, server: 154.84.1.175, port: 443, type: vmess, uuid: c49d20c4-aabb-4caa-9f75-538316b8e97a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.23439261.xyz}}
+  - {name: 🇰🇷 韩国, server: kr01.xqkj.cloud, port: 5090, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: kr01.xqkj.cloud}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 15, server: 154.84.1.31, port: 443, type: vmess, uuid: 82e9f17c-cac2-45da-9c07-2967980a32a6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00225384.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 16, server: 46.182.107.14, port: 443, type: vmess, uuid: 046e37b4-962a-4dfd-a372-c52f8f90edc6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.98868925.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 17, server: 45.58.145.209, port: 443, type: vmess, uuid: 5f3d2caf-55b6-4af2-9183-329602a3fee0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12387703.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 18, server: 46.182.107.29, port: 443, type: vmess, uuid: 5e2b3301-d09b-401a-b465-94a8e0a68a79, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.73783566.xyz}}
+  - {name: 🇨🇦 加拿大, server: t2.ssrsub.one, port: 443, type: trojan, password: 7LKeQVSq, sni: t2.ssrsub.one, skip-cert-verify: false}
+  - {name: 194.41.112.14:39772 2, server: 194.41.112.14, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇳🇱 Pool_🇳🇱NL_2512, server: 154.84.1.31, port: 443, type: vmess, uuid: 82e9f17c-cac2-45da-9c07-2967980a32a6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00225384.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 19, server: 46.182.107.26, port: 443, type: vmess, uuid: ed430006-3d07-4116-902b-649d3492c01a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.59299999.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 20, server: 154.84.1.127, port: 443, type: vmess, uuid: 01f3e51f-4c86-48fe-9a03-202e93a46969, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.63681459.xyz}}
+  - {name: 195.47.194.79:35294, server: 195.47.194.79, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 21, server: 45.58.145.134, port: 443, type: vmess, uuid: 4f6e189e-140e-4017-8db9-8026a17bb1bc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.90326050.xyz}}
+  - {name: 62.212.239.51:43923, server: 62.212.239.51, port: 43923, type: ss, cipher: aes-256-gcm, password: LPdNj6ZpzF6GQ4NC7sYyXey3}
+  - {name: 🇺🇸 Pool_🇺🇸US_4183, server: 45.58.145.209, port: 443, type: vmess, uuid: 5f3d2caf-55b6-4af2-9183-329602a3fee0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12387703.xyz}}
+  - {name: 62.212.239.53:43923, server: 62.212.239.53, port: 43923, type: ss, cipher: aes-256-gcm, password: LPdNj6ZpzF6GQ4NC7sYyXey3}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 22, server: 154.84.1.35, port: 443, type: vmess, uuid: 0415746c-4d6b-49fb-9a8a-e74ad6172d3d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00722542.xyz}}
+  - {name: 🇺🇸 Pool_🇺🇸US_4182, server: 45.58.145.212, port: 443, type: vmess, uuid: 5f3d2caf-55b6-4af2-9183-329602a3fee0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12387703.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 23, server: 45.58.145.212, port: 443, type: vmess, uuid: 5f3d2caf-55b6-4af2-9183-329602a3fee0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12387703.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 24, server: 45.58.149.15, port: 443, type: vmess, uuid: f72de1a6-b823-4951-bf6b-8f5f2cfba0a3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.86214129.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 25, server: 51.195.112.160, port: 443, type: vmess, uuid: 6a7e3fcf-6256-4eaa-9d37-07886949b94f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.969983021.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 26, server: 154.84.1.34, port: 443, type: vmess, uuid: f5713c1a-eeec-4f31-a51c-acb2b879144c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17888690.xyz}}
+  - {name: 🇺🇸 美国 2, server: us01.xqkj.cloud, port: 5093, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: us01.xqkj.cloud}}
+  - {name: 🇺🇸 美国 🚀 6, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 27, server: 154.84.1.149, port: 443, type: vmess, uuid: 1655351f-8d5f-4e7a-9a86-b5bc4ed7da92, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.41330606.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 28, server: 46.182.107.32, port: 443, type: vmess, uuid: e1358875-8d22-4977-a24a-15f3f6df07af, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.97032356.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 29, server: 46.182.107.5, port: 443, type: vmess, uuid: 9fb4ba62-3b1c-4987-8762-d1e4d346afd7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.16162053.xyz}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 30, server: 154.84.1.225, port: 443, type: vmess, uuid: fac11238-1560-4c46-b93b-e92a71304005, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.07197105.xyz}}
+  - {name: 🇺🇸 US_912, server: 45.58.145.209, port: 443, type: vmess, uuid: 5f3d2caf-55b6-4af2-9183-329602a3fee0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12387703.xyz}}
+  - {name: 🇬🇧 英国, server: uk01.xqkj.cloud, port: 5091, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: uk01.xqkj.cloud}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹 31, server: 51.89.115.72, port: 443, type: vmess, uuid: 6a7e3fcf-6256-4eaa-9d37-07886949b94f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.969983021.xyz}}
+  - {name: 154.127.50.138:31572, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇩🇪 德国, server: de01.xqkj.cloud, port: 5092, type: vmess, uuid: 017953ab-b2fc-41c3-8c77-da584e09f958, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: de01.xqkj.cloud}}
+  - {name: 🇸🇬 新加坡 🚀, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 2, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 3, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 4, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 5, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 137.59.52.107:39772, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 137.59.52.107:39772 2, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 新加坡 🚀 6, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 137.59.52.107:33992, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇮🇩 印度尼西亚, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 137.59.52.107:39772 3, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 新加坡 🚀 7, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 8, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 9, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 10, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 11, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 🚀 12, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇨🇳 高速-tw 2, server: gcplink.ml, port: 80, type: vmess, uuid: 31441682-56d0-485c-e02f-769b3aa120e3, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇨🇦 加拿大 2, server: t4.ssrsub.one, port: 443, type: trojan, password: fFHV52LP, sni: t4.ssrsub.one, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 3, server: t5.ssrsub.one, port: 443, type: trojan, password: R5DNgT2E, sni: t5.ssrsub.one, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1732
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1738
-      - Relay_ |29.90Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1598 |27.67Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1731
-      - 🇭🇰 HK_1728
-      - 🇳🇱 Pool_🇳🇱NL_2451
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_2444 |15.99Mb
-      - Relay_ |23.02Mb
-      - IN_1989
-      - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1604 |20.39Mb
-      - Relay_ |26.80Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_1601 |22.29Mb
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_588
-      - "|25.71Mb"
-      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_575
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_4166
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_587
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_514
-      - Relay_ |29.21Mb
+      - 🇨🇳 中国
+      - 🇨🇳 中国 2
+      - "|35.82Mb"
+      - 🇭🇰 *Shanghai-Hong Kong*22
+      - "*Shanghai-Taipei*22"
+      - "*Shanghai-Tokyo*22"
+      - "*Shanghai-LAX*22"
+      - 🇨🇳 中国台湾
+      - 🇭🇰 中国香港
+      - 🇨🇳 中国 3
+      - 🇯🇵 日本
+      - "*Shanghai-Seoul*22"
+      - 🇰🇵 朝鲜
+      - 🇭🇰 香港 🚀
+      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_765
+      - 🇭🇰 Transit*Shanghai-HK*CN2-GIA04
+      - 🇭🇰 香港 🚀 2
+      - 🇭🇰 香港 🚀 3
+      - 高速-kr
+      - 🇭🇰 HK_1852
+      - 🇨🇳 台湾
+      - 🇨🇳 高速-tw
+      - 🇯🇵 日本 2
+      - 🇭🇰 高速-hk
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇭🇰 HK_28 |25.61Mb
+      - 🇨🇳 台湾 3
+      - 45.66.164.121:811
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1707
+      - 🇭🇰 高速-hk 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本 4
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2848
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 🇰🇷 CN-🇰🇷KR_247
+      - 🇸🇬 SG-🇸🇬SG_591
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 104.200.131.245:49396
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 104.200.131.245:33998
+      - 185.124.240.159:38742
+      - 104.200.131.245:33998 2
+      - 185.124.240.149:39772
+      - 185.124.240.149:39772 2
+      - 185.124.240.159:38742 2
+      - 185.124.240.159:38742 3
+      - 185.124.240.159:33998
+      - 104.200.131.245:31944
+      - 104.200.131.245:31944 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 🇺🇸 美国 🚀
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇺🇸 美国 🚀 2
+      - 185.124.240.159:33998 2
+      - https://www.mattkaydiary.com
+      - 34.244.63.147:803
+      - 🇺🇸 US_897
+      - 185.124.240.159:49126
+      - 🇺🇸 US
+      - 185.124.240.159:33998 3
+      - 🇺🇸 US_899
+      - https://www.mattkaydiary.com 2
+      - 🇺🇸 US 2
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 🚀 3
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 加利福尼亚 3
+      - 🇺🇸 US-🇺🇸US_898
+      - https://www.mattkaydiary.com 3
+      - https://www.mattkaydiary.com 4
+      - 🇺🇸 Pool_🇺🇸US_4205
+      - 🇺🇸 美国 加利福尼亚 4
+      - 167.88.63.29:806
+      - 207.244.67.149:39772
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4055
+      - https://www.mattkaydiary.com 5
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4198
+      - 207.244.67.149:39772 2
+      - 🇺🇸 美国 🚀 4
+      - 198.147.22.87:31757
+      - 🇺🇸 US_4204
+      - 🇭🇰 US-🇭🇰HK_909
+      - 🇺🇸 US_4202
+      - 🇺🇸 美国 加利福尼亚 5
+      - 🇺🇸 美国 加利福尼亚 6
+      - 🇺🇸 美国
+      - 欧洲 🚀
+      - 207.244.67.149:33998
+      - 89.43.107.130:809
+      - 🇺🇸 (已坚挺3天)美国
+      - 207.244.67.149:39772 3
+      - 🇩🇪 德国 🚀
+      - 207.244.67.149:33998 2
+      - 🇺🇸 美国 🚀 5
+      - "|15.13Mb"
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_910
+      - 🇺🇸 (已坚挺20天)美国
+      - 34.244.63.147:804
+      - 🇺🇸 美国 加利福尼亚 7
+      - 🇷🇺 俄罗斯
+      - 138.199.42.163:31572
+      - 34.244.63.147:812
+      - 198.147.22.87:33992
+      - 34.244.63.147:809
+      - 34.244.63.147:804 2
+      - 198.147.22.87:31572
+      - 34.244.63.147:812 2
+      - 198.147.22.87:40093
+      - 198.147.22.87:31572 2
+      - 139.28.176.53:31572
+      - 34.244.63.147:802
+      - 34.244.63.147:801
+      - 198.147.22.87:33998
+      - 198.147.22.87:31757 2
+      - 198.147.22.87:40093 2
+      - 欧洲 🚀 2
+      - 185.124.240.149:39772 3
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2078
+      - 🇫🇮 芬兰 🚀
+      - 🇯🇵 |【直连】NRT/东京 A - 1
+      - 🇩🇪 德国 🚀 2
+      - Relay_ |29.45Mb
+      - 🇯🇵 日本 5
+      - 198.147.22.87:33998 2
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 198.147.22.87:31572 3
+      - 139.28.176.53:31572 2
+      - 198.147.22.87:31572 4
+      - 🇯🇵 |【直连】NRT/东京 A - 4
+      - 198.147.22.87:40093 3
+      - 🇯🇵 |【直连】NRT/东京 B - 2
+      - 198.147.22.87:31757 3
+      - 198.147.22.87:33148
+      - 198.147.22.87:33148 2
+      - 45.87.214.253:49126
+      - 198.147.22.87:33992 2
+      - 🇳🇱 荷兰 阿姆斯特丹 2
+      - 🇳🇱 荷兰 阿姆斯特丹 3
+      - 🇳🇱 NL_488
+      - 🇳🇱 荷兰 阿姆斯特丹 4
+      - 🇳🇱 荷兰 阿姆斯特丹 5
+      - 🇳🇱 荷兰 阿姆斯特丹 6
+      - 🇳🇱 荷兰 阿姆斯特丹 7
+      - 🇳🇱 荷兰 阿姆斯特丹 8
+      - 🇳🇱 荷兰 阿姆斯特丹 9
+      - 🇫🇮 芬兰 🚀 2
+      - 🇳🇱 荷兰 阿姆斯特丹 10
+      - 194.41.112.14:39772
+      - 135.125.248.215:811
+      - 146.59.0.168:801
+      - 146.59.0.168:809
+      - 🇳🇱 NL_500
+      - 🇳🇱 荷兰 阿姆斯特丹 11
+      - 🇳🇱 Pool_🇳🇱NL_2510
+      - 🇳🇱 荷兰 阿姆斯特丹 12
+      - 🇳🇱 荷兰 阿姆斯特丹 13
+      - 🇳🇱 NL_480
+      - 🇳🇱 荷兰 阿姆斯特丹 14
+      - 🇰🇷 韩国
+      - 🇳🇱 荷兰 阿姆斯特丹 15
+      - 🇳🇱 荷兰 阿姆斯特丹 16
+      - 🇳🇱 荷兰 阿姆斯特丹 17
+      - 🇳🇱 荷兰 阿姆斯特丹 18
+      - 🇨🇦 加拿大
+      - 194.41.112.14:39772 2
+      - 🇳🇱 Pool_🇳🇱NL_2512
+      - 🇳🇱 荷兰 阿姆斯特丹 19
+      - 🇳🇱 荷兰 阿姆斯特丹 20
+      - 195.47.194.79:35294
+      - 🇳🇱 荷兰 阿姆斯特丹 21
+      - 62.212.239.51:43923
+      - 🇺🇸 Pool_🇺🇸US_4183
+      - 62.212.239.53:43923
+      - 🇳🇱 荷兰 阿姆斯特丹 22
+      - 🇺🇸 Pool_🇺🇸US_4182
+      - 🇳🇱 荷兰 阿姆斯特丹 23
+      - 🇳🇱 荷兰 阿姆斯特丹 24
+      - 🇳🇱 荷兰 阿姆斯特丹 25
+      - 🇳🇱 荷兰 阿姆斯特丹 26
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 🚀 6
+      - 🇳🇱 荷兰 阿姆斯特丹 27
+      - 🇳🇱 荷兰 阿姆斯特丹 28
+      - 🇳🇱 荷兰 阿姆斯特丹 29
+      - 🇳🇱 荷兰 阿姆斯特丹 30
+      - 🇺🇸 US_912
+      - 🇬🇧 英国
+      - 🇳🇱 荷兰 阿姆斯特丹 31
+      - 154.127.50.138:31572
+      - 🇩🇪 德国
+      - 🇸🇬 新加坡 🚀
+      - 🇸🇬 新加坡 🚀 2
+      - 🇸🇬 新加坡 🚀 3
+      - 🇸🇬 新加坡 🚀 4
+      - 🇸🇬 新加坡 🚀 5
+      - 137.59.52.107:39772
+      - 137.59.52.107:39772 2
+      - 🇸🇬 新加坡 🚀 6
+      - 137.59.52.107:33992
+      - 🇮🇩 印度尼西亚
+      - 137.59.52.107:39772 3
+      - 🇸🇬 新加坡 🚀 7
+      - 🇸🇬 新加坡 🚀 8
+      - 🇸🇬 新加坡 🚀 9
+      - 🇸🇬 新加坡 🚀 10
+      - 🇸🇬 新加坡 🚀 11
+      - 🇸🇬 新加坡 🚀 12
+      - 🇨🇳 高速-tw 2
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1732
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1738
-      - Relay_ |29.90Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1598 |27.67Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1731
-      - 🇭🇰 HK_1728
-      - 🇳🇱 Pool_🇳🇱NL_2451
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_2444 |15.99Mb
-      - Relay_ |23.02Mb
-      - IN_1989
-      - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1604 |20.39Mb
-      - Relay_ |26.80Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_1601 |22.29Mb
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_588
-      - "|25.71Mb"
-      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_575
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_4166
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_587
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_514
-      - Relay_ |29.21Mb
+      - 🇨🇳 中国
+      - 🇨🇳 中国 2
+      - "|35.82Mb"
+      - 🇭🇰 *Shanghai-Hong Kong*22
+      - "*Shanghai-Taipei*22"
+      - "*Shanghai-Tokyo*22"
+      - "*Shanghai-LAX*22"
+      - 🇨🇳 中国台湾
+      - 🇭🇰 中国香港
+      - 🇨🇳 中国 3
+      - 🇯🇵 日本
+      - "*Shanghai-Seoul*22"
+      - 🇰🇵 朝鲜
+      - 🇭🇰 香港 🚀
+      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_765
+      - 🇭🇰 Transit*Shanghai-HK*CN2-GIA04
+      - 🇭🇰 香港 🚀 2
+      - 🇭🇰 香港 🚀 3
+      - 高速-kr
+      - 🇭🇰 HK_1852
+      - 🇨🇳 台湾
+      - 🇨🇳 高速-tw
+      - 🇯🇵 日本 2
+      - 🇭🇰 高速-hk
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇭🇰 HK_28 |25.61Mb
+      - 🇨🇳 台湾 3
+      - 45.66.164.121:811
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1707
+      - 🇭🇰 高速-hk 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本 4
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2848
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 🇰🇷 CN-🇰🇷KR_247
+      - 🇸🇬 SG-🇸🇬SG_591
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 104.200.131.245:49396
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 104.200.131.245:33998
+      - 185.124.240.159:38742
+      - 104.200.131.245:33998 2
+      - 185.124.240.149:39772
+      - 185.124.240.149:39772 2
+      - 185.124.240.159:38742 2
+      - 185.124.240.159:38742 3
+      - 185.124.240.159:33998
+      - 104.200.131.245:31944
+      - 104.200.131.245:31944 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 🇺🇸 美国 🚀
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇺🇸 美国 🚀 2
+      - 185.124.240.159:33998 2
+      - https://www.mattkaydiary.com
+      - 34.244.63.147:803
+      - 🇺🇸 US_897
+      - 185.124.240.159:49126
+      - 🇺🇸 US
+      - 185.124.240.159:33998 3
+      - 🇺🇸 US_899
+      - https://www.mattkaydiary.com 2
+      - 🇺🇸 US 2
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 🚀 3
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 加利福尼亚 3
+      - 🇺🇸 US-🇺🇸US_898
+      - https://www.mattkaydiary.com 3
+      - https://www.mattkaydiary.com 4
+      - 🇺🇸 Pool_🇺🇸US_4205
+      - 🇺🇸 美国 加利福尼亚 4
+      - 167.88.63.29:806
+      - 207.244.67.149:39772
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4055
+      - https://www.mattkaydiary.com 5
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4198
+      - 207.244.67.149:39772 2
+      - 🇺🇸 美国 🚀 4
+      - 198.147.22.87:31757
+      - 🇺🇸 US_4204
+      - 🇭🇰 US-🇭🇰HK_909
+      - 🇺🇸 US_4202
+      - 🇺🇸 美国 加利福尼亚 5
+      - 🇺🇸 美国 加利福尼亚 6
+      - 🇺🇸 美国
+      - 欧洲 🚀
+      - 207.244.67.149:33998
+      - 89.43.107.130:809
+      - 🇺🇸 (已坚挺3天)美国
+      - 207.244.67.149:39772 3
+      - 🇩🇪 德国 🚀
+      - 207.244.67.149:33998 2
+      - 🇺🇸 美国 🚀 5
+      - "|15.13Mb"
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_910
+      - 🇺🇸 (已坚挺20天)美国
+      - 34.244.63.147:804
+      - 🇺🇸 美国 加利福尼亚 7
+      - 🇷🇺 俄罗斯
+      - 138.199.42.163:31572
+      - 34.244.63.147:812
+      - 198.147.22.87:33992
+      - 34.244.63.147:809
+      - 34.244.63.147:804 2
+      - 198.147.22.87:31572
+      - 34.244.63.147:812 2
+      - 198.147.22.87:40093
+      - 198.147.22.87:31572 2
+      - 139.28.176.53:31572
+      - 34.244.63.147:802
+      - 34.244.63.147:801
+      - 198.147.22.87:33998
+      - 198.147.22.87:31757 2
+      - 198.147.22.87:40093 2
+      - 欧洲 🚀 2
+      - 185.124.240.149:39772 3
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2078
+      - 🇫🇮 芬兰 🚀
+      - 🇯🇵 |【直连】NRT/东京 A - 1
+      - 🇩🇪 德国 🚀 2
+      - Relay_ |29.45Mb
+      - 🇯🇵 日本 5
+      - 198.147.22.87:33998 2
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 198.147.22.87:31572 3
+      - 139.28.176.53:31572 2
+      - 198.147.22.87:31572 4
+      - 🇯🇵 |【直连】NRT/东京 A - 4
+      - 198.147.22.87:40093 3
+      - 🇯🇵 |【直连】NRT/东京 B - 2
+      - 198.147.22.87:31757 3
+      - 198.147.22.87:33148
+      - 198.147.22.87:33148 2
+      - 45.87.214.253:49126
+      - 198.147.22.87:33992 2
+      - 🇳🇱 荷兰 阿姆斯特丹 2
+      - 🇳🇱 荷兰 阿姆斯特丹 3
+      - 🇳🇱 NL_488
+      - 🇳🇱 荷兰 阿姆斯特丹 4
+      - 🇳🇱 荷兰 阿姆斯特丹 5
+      - 🇳🇱 荷兰 阿姆斯特丹 6
+      - 🇳🇱 荷兰 阿姆斯特丹 7
+      - 🇳🇱 荷兰 阿姆斯特丹 8
+      - 🇳🇱 荷兰 阿姆斯特丹 9
+      - 🇫🇮 芬兰 🚀 2
+      - 🇳🇱 荷兰 阿姆斯特丹 10
+      - 194.41.112.14:39772
+      - 135.125.248.215:811
+      - 146.59.0.168:801
+      - 146.59.0.168:809
+      - 🇳🇱 NL_500
+      - 🇳🇱 荷兰 阿姆斯特丹 11
+      - 🇳🇱 Pool_🇳🇱NL_2510
+      - 🇳🇱 荷兰 阿姆斯特丹 12
+      - 🇳🇱 荷兰 阿姆斯特丹 13
+      - 🇳🇱 NL_480
+      - 🇳🇱 荷兰 阿姆斯特丹 14
+      - 🇰🇷 韩国
+      - 🇳🇱 荷兰 阿姆斯特丹 15
+      - 🇳🇱 荷兰 阿姆斯特丹 16
+      - 🇳🇱 荷兰 阿姆斯特丹 17
+      - 🇳🇱 荷兰 阿姆斯特丹 18
+      - 🇨🇦 加拿大
+      - 194.41.112.14:39772 2
+      - 🇳🇱 Pool_🇳🇱NL_2512
+      - 🇳🇱 荷兰 阿姆斯特丹 19
+      - 🇳🇱 荷兰 阿姆斯特丹 20
+      - 195.47.194.79:35294
+      - 🇳🇱 荷兰 阿姆斯特丹 21
+      - 62.212.239.51:43923
+      - 🇺🇸 Pool_🇺🇸US_4183
+      - 62.212.239.53:43923
+      - 🇳🇱 荷兰 阿姆斯特丹 22
+      - 🇺🇸 Pool_🇺🇸US_4182
+      - 🇳🇱 荷兰 阿姆斯特丹 23
+      - 🇳🇱 荷兰 阿姆斯特丹 24
+      - 🇳🇱 荷兰 阿姆斯特丹 25
+      - 🇳🇱 荷兰 阿姆斯特丹 26
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 🚀 6
+      - 🇳🇱 荷兰 阿姆斯特丹 27
+      - 🇳🇱 荷兰 阿姆斯特丹 28
+      - 🇳🇱 荷兰 阿姆斯特丹 29
+      - 🇳🇱 荷兰 阿姆斯特丹 30
+      - 🇺🇸 US_912
+      - 🇬🇧 英国
+      - 🇳🇱 荷兰 阿姆斯特丹 31
+      - 154.127.50.138:31572
+      - 🇩🇪 德国
+      - 🇸🇬 新加坡 🚀
+      - 🇸🇬 新加坡 🚀 2
+      - 🇸🇬 新加坡 🚀 3
+      - 🇸🇬 新加坡 🚀 4
+      - 🇸🇬 新加坡 🚀 5
+      - 137.59.52.107:39772
+      - 137.59.52.107:39772 2
+      - 🇸🇬 新加坡 🚀 6
+      - 137.59.52.107:33992
+      - 🇮🇩 印度尼西亚
+      - 137.59.52.107:39772 3
+      - 🇸🇬 新加坡 🚀 7
+      - 🇸🇬 新加坡 🚀 8
+      - 🇸🇬 新加坡 🚀 9
+      - 🇸🇬 新加坡 🚀 10
+      - 🇸🇬 新加坡 🚀 11
+      - 🇸🇬 新加坡 🚀 12
+      - 🇨🇳 高速-tw 2
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1732
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1738
-      - Relay_ |29.90Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1598 |27.67Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1731
-      - 🇭🇰 HK_1728
-      - 🇳🇱 Pool_🇳🇱NL_2451
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_2444 |15.99Mb
-      - Relay_ |23.02Mb
-      - IN_1989
-      - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1604 |20.39Mb
-      - Relay_ |26.80Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_1601 |22.29Mb
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_588
-      - "|25.71Mb"
-      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_575
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_4166
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_587
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_514
-      - Relay_ |29.21Mb
+      - 🇨🇳 中国
+      - 🇨🇳 中国 2
+      - "|35.82Mb"
+      - 🇭🇰 *Shanghai-Hong Kong*22
+      - "*Shanghai-Taipei*22"
+      - "*Shanghai-Tokyo*22"
+      - "*Shanghai-LAX*22"
+      - 🇨🇳 中国台湾
+      - 🇭🇰 中国香港
+      - 🇨🇳 中国 3
+      - 🇯🇵 日本
+      - "*Shanghai-Seoul*22"
+      - 🇰🇵 朝鲜
+      - 🇭🇰 香港 🚀
+      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_765
+      - 🇭🇰 Transit*Shanghai-HK*CN2-GIA04
+      - 🇭🇰 香港 🚀 2
+      - 🇭🇰 香港 🚀 3
+      - 高速-kr
+      - 🇭🇰 HK_1852
+      - 🇨🇳 台湾
+      - 🇨🇳 高速-tw
+      - 🇯🇵 日本 2
+      - 🇭🇰 高速-hk
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇭🇰 HK_28 |25.61Mb
+      - 🇨🇳 台湾 3
+      - 45.66.164.121:811
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1707
+      - 🇭🇰 高速-hk 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本 4
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2848
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 🇰🇷 CN-🇰🇷KR_247
+      - 🇸🇬 SG-🇸🇬SG_591
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 104.200.131.245:49396
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 104.200.131.245:33998
+      - 185.124.240.159:38742
+      - 104.200.131.245:33998 2
+      - 185.124.240.149:39772
+      - 185.124.240.149:39772 2
+      - 185.124.240.159:38742 2
+      - 185.124.240.159:38742 3
+      - 185.124.240.159:33998
+      - 104.200.131.245:31944
+      - 104.200.131.245:31944 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 🇺🇸 美国 🚀
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇺🇸 美国 🚀 2
+      - 185.124.240.159:33998 2
+      - https://www.mattkaydiary.com
+      - 34.244.63.147:803
+      - 🇺🇸 US_897
+      - 185.124.240.159:49126
+      - 🇺🇸 US
+      - 185.124.240.159:33998 3
+      - 🇺🇸 US_899
+      - https://www.mattkaydiary.com 2
+      - 🇺🇸 US 2
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 🚀 3
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 加利福尼亚 3
+      - 🇺🇸 US-🇺🇸US_898
+      - https://www.mattkaydiary.com 3
+      - https://www.mattkaydiary.com 4
+      - 🇺🇸 Pool_🇺🇸US_4205
+      - 🇺🇸 美国 加利福尼亚 4
+      - 167.88.63.29:806
+      - 207.244.67.149:39772
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4055
+      - https://www.mattkaydiary.com 5
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4198
+      - 207.244.67.149:39772 2
+      - 🇺🇸 美国 🚀 4
+      - 198.147.22.87:31757
+      - 🇺🇸 US_4204
+      - 🇭🇰 US-🇭🇰HK_909
+      - 🇺🇸 US_4202
+      - 🇺🇸 美国 加利福尼亚 5
+      - 🇺🇸 美国 加利福尼亚 6
+      - 🇺🇸 美国
+      - 欧洲 🚀
+      - 207.244.67.149:33998
+      - 89.43.107.130:809
+      - 🇺🇸 (已坚挺3天)美国
+      - 207.244.67.149:39772 3
+      - 🇩🇪 德国 🚀
+      - 207.244.67.149:33998 2
+      - 🇺🇸 美国 🚀 5
+      - "|15.13Mb"
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_910
+      - 🇺🇸 (已坚挺20天)美国
+      - 34.244.63.147:804
+      - 🇺🇸 美国 加利福尼亚 7
+      - 🇷🇺 俄罗斯
+      - 138.199.42.163:31572
+      - 34.244.63.147:812
+      - 198.147.22.87:33992
+      - 34.244.63.147:809
+      - 34.244.63.147:804 2
+      - 198.147.22.87:31572
+      - 34.244.63.147:812 2
+      - 198.147.22.87:40093
+      - 198.147.22.87:31572 2
+      - 139.28.176.53:31572
+      - 34.244.63.147:802
+      - 34.244.63.147:801
+      - 198.147.22.87:33998
+      - 198.147.22.87:31757 2
+      - 198.147.22.87:40093 2
+      - 欧洲 🚀 2
+      - 185.124.240.149:39772 3
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2078
+      - 🇫🇮 芬兰 🚀
+      - 🇯🇵 |【直连】NRT/东京 A - 1
+      - 🇩🇪 德国 🚀 2
+      - Relay_ |29.45Mb
+      - 🇯🇵 日本 5
+      - 198.147.22.87:33998 2
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 198.147.22.87:31572 3
+      - 139.28.176.53:31572 2
+      - 198.147.22.87:31572 4
+      - 🇯🇵 |【直连】NRT/东京 A - 4
+      - 198.147.22.87:40093 3
+      - 🇯🇵 |【直连】NRT/东京 B - 2
+      - 198.147.22.87:31757 3
+      - 198.147.22.87:33148
+      - 198.147.22.87:33148 2
+      - 45.87.214.253:49126
+      - 198.147.22.87:33992 2
+      - 🇳🇱 荷兰 阿姆斯特丹 2
+      - 🇳🇱 荷兰 阿姆斯特丹 3
+      - 🇳🇱 NL_488
+      - 🇳🇱 荷兰 阿姆斯特丹 4
+      - 🇳🇱 荷兰 阿姆斯特丹 5
+      - 🇳🇱 荷兰 阿姆斯特丹 6
+      - 🇳🇱 荷兰 阿姆斯特丹 7
+      - 🇳🇱 荷兰 阿姆斯特丹 8
+      - 🇳🇱 荷兰 阿姆斯特丹 9
+      - 🇫🇮 芬兰 🚀 2
+      - 🇳🇱 荷兰 阿姆斯特丹 10
+      - 194.41.112.14:39772
+      - 135.125.248.215:811
+      - 146.59.0.168:801
+      - 146.59.0.168:809
+      - 🇳🇱 NL_500
+      - 🇳🇱 荷兰 阿姆斯特丹 11
+      - 🇳🇱 Pool_🇳🇱NL_2510
+      - 🇳🇱 荷兰 阿姆斯特丹 12
+      - 🇳🇱 荷兰 阿姆斯特丹 13
+      - 🇳🇱 NL_480
+      - 🇳🇱 荷兰 阿姆斯特丹 14
+      - 🇰🇷 韩国
+      - 🇳🇱 荷兰 阿姆斯特丹 15
+      - 🇳🇱 荷兰 阿姆斯特丹 16
+      - 🇳🇱 荷兰 阿姆斯特丹 17
+      - 🇳🇱 荷兰 阿姆斯特丹 18
+      - 🇨🇦 加拿大
+      - 194.41.112.14:39772 2
+      - 🇳🇱 Pool_🇳🇱NL_2512
+      - 🇳🇱 荷兰 阿姆斯特丹 19
+      - 🇳🇱 荷兰 阿姆斯特丹 20
+      - 195.47.194.79:35294
+      - 🇳🇱 荷兰 阿姆斯特丹 21
+      - 62.212.239.51:43923
+      - 🇺🇸 Pool_🇺🇸US_4183
+      - 62.212.239.53:43923
+      - 🇳🇱 荷兰 阿姆斯特丹 22
+      - 🇺🇸 Pool_🇺🇸US_4182
+      - 🇳🇱 荷兰 阿姆斯特丹 23
+      - 🇳🇱 荷兰 阿姆斯特丹 24
+      - 🇳🇱 荷兰 阿姆斯特丹 25
+      - 🇳🇱 荷兰 阿姆斯特丹 26
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 🚀 6
+      - 🇳🇱 荷兰 阿姆斯特丹 27
+      - 🇳🇱 荷兰 阿姆斯特丹 28
+      - 🇳🇱 荷兰 阿姆斯特丹 29
+      - 🇳🇱 荷兰 阿姆斯特丹 30
+      - 🇺🇸 US_912
+      - 🇬🇧 英国
+      - 🇳🇱 荷兰 阿姆斯特丹 31
+      - 154.127.50.138:31572
+      - 🇩🇪 德国
+      - 🇸🇬 新加坡 🚀
+      - 🇸🇬 新加坡 🚀 2
+      - 🇸🇬 新加坡 🚀 3
+      - 🇸🇬 新加坡 🚀 4
+      - 🇸🇬 新加坡 🚀 5
+      - 137.59.52.107:39772
+      - 137.59.52.107:39772 2
+      - 🇸🇬 新加坡 🚀 6
+      - 137.59.52.107:33992
+      - 🇮🇩 印度尼西亚
+      - 137.59.52.107:39772 3
+      - 🇸🇬 新加坡 🚀 7
+      - 🇸🇬 新加坡 🚀 8
+      - 🇸🇬 新加坡 🚀 9
+      - 🇸🇬 新加坡 🚀 10
+      - 🇸🇬 新加坡 🚀 11
+      - 🇸🇬 新加坡 🚀 12
+      - 🇨🇳 高速-tw 2
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 中国台湾
+      - 🇭🇰 中国香港
+      - 🇭🇰 香港 🚀
+      - 🇭🇰 香港 🚀 2
+      - 🇭🇰 香港 🚀 3
+      - 🇨🇳 台湾
+      - 🇨🇳 高速-tw
+      - 🇭🇰 高速-hk
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇭🇰 高速-hk 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇨🇳 高速-tw 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1732
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1738
-      - Relay_ |29.90Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1598 |27.67Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1731
-      - 🇭🇰 HK_1728
-      - 🇳🇱 Pool_🇳🇱NL_2451
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_2444 |15.99Mb
-      - Relay_ |23.02Mb
-      - IN_1989
-      - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1604 |20.39Mb
-      - Relay_ |26.80Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_1601 |22.29Mb
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_588
-      - "|25.71Mb"
-      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_575
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_4166
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_587
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_514
-      - Relay_ |29.21Mb
+      - 🇨🇳 中国
+      - 🇨🇳 中国 2
+      - "|35.82Mb"
+      - 🇭🇰 *Shanghai-Hong Kong*22
+      - "*Shanghai-Taipei*22"
+      - "*Shanghai-Tokyo*22"
+      - "*Shanghai-LAX*22"
+      - 🇨🇳 中国台湾
+      - 🇭🇰 中国香港
+      - 🇨🇳 中国 3
+      - 🇯🇵 日本
+      - "*Shanghai-Seoul*22"
+      - 🇰🇵 朝鲜
+      - 🇭🇰 香港 🚀
+      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_765
+      - 🇭🇰 Transit*Shanghai-HK*CN2-GIA04
+      - 🇭🇰 香港 🚀 2
+      - 🇭🇰 香港 🚀 3
+      - 高速-kr
+      - 🇭🇰 HK_1852
+      - 🇨🇳 台湾
+      - 🇨🇳 高速-tw
+      - 🇯🇵 日本 2
+      - 🇭🇰 高速-hk
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇭🇰 HK_28 |25.61Mb
+      - 🇨🇳 台湾 3
+      - 45.66.164.121:811
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1707
+      - 🇭🇰 高速-hk 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本 4
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2848
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 🇰🇷 CN-🇰🇷KR_247
+      - 🇸🇬 SG-🇸🇬SG_591
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 104.200.131.245:49396
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 104.200.131.245:33998
+      - 185.124.240.159:38742
+      - 104.200.131.245:33998 2
+      - 185.124.240.149:39772
+      - 185.124.240.149:39772 2
+      - 185.124.240.159:38742 2
+      - 185.124.240.159:38742 3
+      - 185.124.240.159:33998
+      - 104.200.131.245:31944
+      - 104.200.131.245:31944 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 🇺🇸 美国 🚀
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇺🇸 美国 🚀 2
+      - 185.124.240.159:33998 2
+      - https://www.mattkaydiary.com
+      - 34.244.63.147:803
+      - 🇺🇸 US_897
+      - 185.124.240.159:49126
+      - 🇺🇸 US
+      - 185.124.240.159:33998 3
+      - 🇺🇸 US_899
+      - https://www.mattkaydiary.com 2
+      - 🇺🇸 US 2
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 🚀 3
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 加利福尼亚 3
+      - 🇺🇸 US-🇺🇸US_898
+      - https://www.mattkaydiary.com 3
+      - https://www.mattkaydiary.com 4
+      - 🇺🇸 Pool_🇺🇸US_4205
+      - 🇺🇸 美国 加利福尼亚 4
+      - 167.88.63.29:806
+      - 207.244.67.149:39772
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4055
+      - https://www.mattkaydiary.com 5
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4198
+      - 207.244.67.149:39772 2
+      - 🇺🇸 美国 🚀 4
+      - 198.147.22.87:31757
+      - 🇺🇸 US_4204
+      - 🇭🇰 US-🇭🇰HK_909
+      - 🇺🇸 US_4202
+      - 🇺🇸 美国 加利福尼亚 5
+      - 🇺🇸 美国 加利福尼亚 6
+      - 🇺🇸 美国
+      - 欧洲 🚀
+      - 207.244.67.149:33998
+      - 89.43.107.130:809
+      - 🇺🇸 (已坚挺3天)美国
+      - 207.244.67.149:39772 3
+      - 🇩🇪 德国 🚀
+      - 207.244.67.149:33998 2
+      - 🇺🇸 美国 🚀 5
+      - "|15.13Mb"
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_910
+      - 🇺🇸 (已坚挺20天)美国
+      - 34.244.63.147:804
+      - 🇺🇸 美国 加利福尼亚 7
+      - 🇷🇺 俄罗斯
+      - 138.199.42.163:31572
+      - 34.244.63.147:812
+      - 198.147.22.87:33992
+      - 34.244.63.147:809
+      - 34.244.63.147:804 2
+      - 198.147.22.87:31572
+      - 34.244.63.147:812 2
+      - 198.147.22.87:40093
+      - 198.147.22.87:31572 2
+      - 139.28.176.53:31572
+      - 34.244.63.147:802
+      - 34.244.63.147:801
+      - 198.147.22.87:33998
+      - 198.147.22.87:31757 2
+      - 198.147.22.87:40093 2
+      - 欧洲 🚀 2
+      - 185.124.240.149:39772 3
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2078
+      - 🇫🇮 芬兰 🚀
+      - 🇯🇵 |【直连】NRT/东京 A - 1
+      - 🇩🇪 德国 🚀 2
+      - Relay_ |29.45Mb
+      - 🇯🇵 日本 5
+      - 198.147.22.87:33998 2
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 198.147.22.87:31572 3
+      - 139.28.176.53:31572 2
+      - 198.147.22.87:31572 4
+      - 🇯🇵 |【直连】NRT/东京 A - 4
+      - 198.147.22.87:40093 3
+      - 🇯🇵 |【直连】NRT/东京 B - 2
+      - 198.147.22.87:31757 3
+      - 198.147.22.87:33148
+      - 198.147.22.87:33148 2
+      - 45.87.214.253:49126
+      - 198.147.22.87:33992 2
+      - 🇳🇱 荷兰 阿姆斯特丹 2
+      - 🇳🇱 荷兰 阿姆斯特丹 3
+      - 🇳🇱 NL_488
+      - 🇳🇱 荷兰 阿姆斯特丹 4
+      - 🇳🇱 荷兰 阿姆斯特丹 5
+      - 🇳🇱 荷兰 阿姆斯特丹 6
+      - 🇳🇱 荷兰 阿姆斯特丹 7
+      - 🇳🇱 荷兰 阿姆斯特丹 8
+      - 🇳🇱 荷兰 阿姆斯特丹 9
+      - 🇫🇮 芬兰 🚀 2
+      - 🇳🇱 荷兰 阿姆斯特丹 10
+      - 194.41.112.14:39772
+      - 135.125.248.215:811
+      - 146.59.0.168:801
+      - 146.59.0.168:809
+      - 🇳🇱 NL_500
+      - 🇳🇱 荷兰 阿姆斯特丹 11
+      - 🇳🇱 Pool_🇳🇱NL_2510
+      - 🇳🇱 荷兰 阿姆斯特丹 12
+      - 🇳🇱 荷兰 阿姆斯特丹 13
+      - 🇳🇱 NL_480
+      - 🇳🇱 荷兰 阿姆斯特丹 14
+      - 🇰🇷 韩国
+      - 🇳🇱 荷兰 阿姆斯特丹 15
+      - 🇳🇱 荷兰 阿姆斯特丹 16
+      - 🇳🇱 荷兰 阿姆斯特丹 17
+      - 🇳🇱 荷兰 阿姆斯特丹 18
+      - 🇨🇦 加拿大
+      - 194.41.112.14:39772 2
+      - 🇳🇱 Pool_🇳🇱NL_2512
+      - 🇳🇱 荷兰 阿姆斯特丹 19
+      - 🇳🇱 荷兰 阿姆斯特丹 20
+      - 195.47.194.79:35294
+      - 🇳🇱 荷兰 阿姆斯特丹 21
+      - 62.212.239.51:43923
+      - 🇺🇸 Pool_🇺🇸US_4183
+      - 62.212.239.53:43923
+      - 🇳🇱 荷兰 阿姆斯特丹 22
+      - 🇺🇸 Pool_🇺🇸US_4182
+      - 🇳🇱 荷兰 阿姆斯特丹 23
+      - 🇳🇱 荷兰 阿姆斯特丹 24
+      - 🇳🇱 荷兰 阿姆斯特丹 25
+      - 🇳🇱 荷兰 阿姆斯特丹 26
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 🚀 6
+      - 🇳🇱 荷兰 阿姆斯特丹 27
+      - 🇳🇱 荷兰 阿姆斯特丹 28
+      - 🇳🇱 荷兰 阿姆斯特丹 29
+      - 🇳🇱 荷兰 阿姆斯特丹 30
+      - 🇺🇸 US_912
+      - 🇬🇧 英国
+      - 🇳🇱 荷兰 阿姆斯特丹 31
+      - 154.127.50.138:31572
+      - 🇩🇪 德国
+      - 🇸🇬 新加坡 🚀
+      - 🇸🇬 新加坡 🚀 2
+      - 🇸🇬 新加坡 🚀 3
+      - 🇸🇬 新加坡 🚀 4
+      - 🇸🇬 新加坡 🚀 5
+      - 137.59.52.107:39772
+      - 137.59.52.107:39772 2
+      - 🇸🇬 新加坡 🚀 6
+      - 137.59.52.107:33992
+      - 🇮🇩 印度尼西亚
+      - 137.59.52.107:39772 3
+      - 🇸🇬 新加坡 🚀 7
+      - 🇸🇬 新加坡 🚀 8
+      - 🇸🇬 新加坡 🚀 9
+      - 🇸🇬 新加坡 🚀 10
+      - 🇸🇬 新加坡 🚀 11
+      - 🇸🇬 新加坡 🚀 12
+      - 🇨🇳 高速-tw 2
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1732
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1738
-      - Relay_ |29.90Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1598 |27.67Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1731
-      - 🇭🇰 HK_1728
-      - 🇳🇱 Pool_🇳🇱NL_2451
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_2444 |15.99Mb
-      - Relay_ |23.02Mb
-      - IN_1989
-      - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1604 |20.39Mb
-      - Relay_ |26.80Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_1601 |22.29Mb
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_588
-      - "|25.71Mb"
-      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_575
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_4166
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_587
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_514
-      - Relay_ |29.21Mb
+      - 🇨🇳 中国
+      - 🇨🇳 中国 2
+      - "|35.82Mb"
+      - 🇭🇰 *Shanghai-Hong Kong*22
+      - "*Shanghai-Taipei*22"
+      - "*Shanghai-Tokyo*22"
+      - "*Shanghai-LAX*22"
+      - 🇨🇳 中国台湾
+      - 🇭🇰 中国香港
+      - 🇨🇳 中国 3
+      - 🇯🇵 日本
+      - "*Shanghai-Seoul*22"
+      - 🇰🇵 朝鲜
+      - 🇭🇰 香港 🚀
+      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_765
+      - 🇭🇰 Transit*Shanghai-HK*CN2-GIA04
+      - 🇭🇰 香港 🚀 2
+      - 🇭🇰 香港 🚀 3
+      - 高速-kr
+      - 🇭🇰 HK_1852
+      - 🇨🇳 台湾
+      - 🇨🇳 高速-tw
+      - 🇯🇵 日本 2
+      - 🇭🇰 高速-hk
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇭🇰 HK_28 |25.61Mb
+      - 🇨🇳 台湾 3
+      - 45.66.164.121:811
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1707
+      - 🇭🇰 高速-hk 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本 4
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2848
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 🇰🇷 CN-🇰🇷KR_247
+      - 🇸🇬 SG-🇸🇬SG_591
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 104.200.131.245:49396
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 104.200.131.245:33998
+      - 185.124.240.159:38742
+      - 104.200.131.245:33998 2
+      - 185.124.240.149:39772
+      - 185.124.240.149:39772 2
+      - 185.124.240.159:38742 2
+      - 185.124.240.159:38742 3
+      - 185.124.240.159:33998
+      - 104.200.131.245:31944
+      - 104.200.131.245:31944 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 🇺🇸 美国 🚀
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇺🇸 美国 🚀 2
+      - 185.124.240.159:33998 2
+      - https://www.mattkaydiary.com
+      - 34.244.63.147:803
+      - 🇺🇸 US_897
+      - 185.124.240.159:49126
+      - 🇺🇸 US
+      - 185.124.240.159:33998 3
+      - 🇺🇸 US_899
+      - https://www.mattkaydiary.com 2
+      - 🇺🇸 US 2
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 🚀 3
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 加利福尼亚 3
+      - 🇺🇸 US-🇺🇸US_898
+      - https://www.mattkaydiary.com 3
+      - https://www.mattkaydiary.com 4
+      - 🇺🇸 Pool_🇺🇸US_4205
+      - 🇺🇸 美国 加利福尼亚 4
+      - 167.88.63.29:806
+      - 207.244.67.149:39772
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4055
+      - https://www.mattkaydiary.com 5
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4198
+      - 207.244.67.149:39772 2
+      - 🇺🇸 美国 🚀 4
+      - 198.147.22.87:31757
+      - 🇺🇸 US_4204
+      - 🇭🇰 US-🇭🇰HK_909
+      - 🇺🇸 US_4202
+      - 🇺🇸 美国 加利福尼亚 5
+      - 🇺🇸 美国 加利福尼亚 6
+      - 🇺🇸 美国
+      - 欧洲 🚀
+      - 207.244.67.149:33998
+      - 89.43.107.130:809
+      - 🇺🇸 (已坚挺3天)美国
+      - 207.244.67.149:39772 3
+      - 🇩🇪 德国 🚀
+      - 207.244.67.149:33998 2
+      - 🇺🇸 美国 🚀 5
+      - "|15.13Mb"
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_910
+      - 🇺🇸 (已坚挺20天)美国
+      - 34.244.63.147:804
+      - 🇺🇸 美国 加利福尼亚 7
+      - 🇷🇺 俄罗斯
+      - 138.199.42.163:31572
+      - 34.244.63.147:812
+      - 198.147.22.87:33992
+      - 34.244.63.147:809
+      - 34.244.63.147:804 2
+      - 198.147.22.87:31572
+      - 34.244.63.147:812 2
+      - 198.147.22.87:40093
+      - 198.147.22.87:31572 2
+      - 139.28.176.53:31572
+      - 34.244.63.147:802
+      - 34.244.63.147:801
+      - 198.147.22.87:33998
+      - 198.147.22.87:31757 2
+      - 198.147.22.87:40093 2
+      - 欧洲 🚀 2
+      - 185.124.240.149:39772 3
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2078
+      - 🇫🇮 芬兰 🚀
+      - 🇯🇵 |【直连】NRT/东京 A - 1
+      - 🇩🇪 德国 🚀 2
+      - Relay_ |29.45Mb
+      - 🇯🇵 日本 5
+      - 198.147.22.87:33998 2
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 198.147.22.87:31572 3
+      - 139.28.176.53:31572 2
+      - 198.147.22.87:31572 4
+      - 🇯🇵 |【直连】NRT/东京 A - 4
+      - 198.147.22.87:40093 3
+      - 🇯🇵 |【直连】NRT/东京 B - 2
+      - 198.147.22.87:31757 3
+      - 198.147.22.87:33148
+      - 198.147.22.87:33148 2
+      - 45.87.214.253:49126
+      - 198.147.22.87:33992 2
+      - 🇳🇱 荷兰 阿姆斯特丹 2
+      - 🇳🇱 荷兰 阿姆斯特丹 3
+      - 🇳🇱 NL_488
+      - 🇳🇱 荷兰 阿姆斯特丹 4
+      - 🇳🇱 荷兰 阿姆斯特丹 5
+      - 🇳🇱 荷兰 阿姆斯特丹 6
+      - 🇳🇱 荷兰 阿姆斯特丹 7
+      - 🇳🇱 荷兰 阿姆斯特丹 8
+      - 🇳🇱 荷兰 阿姆斯特丹 9
+      - 🇫🇮 芬兰 🚀 2
+      - 🇳🇱 荷兰 阿姆斯特丹 10
+      - 194.41.112.14:39772
+      - 135.125.248.215:811
+      - 146.59.0.168:801
+      - 146.59.0.168:809
+      - 🇳🇱 NL_500
+      - 🇳🇱 荷兰 阿姆斯特丹 11
+      - 🇳🇱 Pool_🇳🇱NL_2510
+      - 🇳🇱 荷兰 阿姆斯特丹 12
+      - 🇳🇱 荷兰 阿姆斯特丹 13
+      - 🇳🇱 NL_480
+      - 🇳🇱 荷兰 阿姆斯特丹 14
+      - 🇰🇷 韩国
+      - 🇳🇱 荷兰 阿姆斯特丹 15
+      - 🇳🇱 荷兰 阿姆斯特丹 16
+      - 🇳🇱 荷兰 阿姆斯特丹 17
+      - 🇳🇱 荷兰 阿姆斯特丹 18
+      - 🇨🇦 加拿大
+      - 194.41.112.14:39772 2
+      - 🇳🇱 Pool_🇳🇱NL_2512
+      - 🇳🇱 荷兰 阿姆斯特丹 19
+      - 🇳🇱 荷兰 阿姆斯特丹 20
+      - 195.47.194.79:35294
+      - 🇳🇱 荷兰 阿姆斯特丹 21
+      - 62.212.239.51:43923
+      - 🇺🇸 Pool_🇺🇸US_4183
+      - 62.212.239.53:43923
+      - 🇳🇱 荷兰 阿姆斯特丹 22
+      - 🇺🇸 Pool_🇺🇸US_4182
+      - 🇳🇱 荷兰 阿姆斯特丹 23
+      - 🇳🇱 荷兰 阿姆斯特丹 24
+      - 🇳🇱 荷兰 阿姆斯特丹 25
+      - 🇳🇱 荷兰 阿姆斯特丹 26
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 🚀 6
+      - 🇳🇱 荷兰 阿姆斯特丹 27
+      - 🇳🇱 荷兰 阿姆斯特丹 28
+      - 🇳🇱 荷兰 阿姆斯特丹 29
+      - 🇳🇱 荷兰 阿姆斯特丹 30
+      - 🇺🇸 US_912
+      - 🇬🇧 英国
+      - 🇳🇱 荷兰 阿姆斯特丹 31
+      - 154.127.50.138:31572
+      - 🇩🇪 德国
+      - 🇸🇬 新加坡 🚀
+      - 🇸🇬 新加坡 🚀 2
+      - 🇸🇬 新加坡 🚀 3
+      - 🇸🇬 新加坡 🚀 4
+      - 🇸🇬 新加坡 🚀 5
+      - 137.59.52.107:39772
+      - 137.59.52.107:39772 2
+      - 🇸🇬 新加坡 🚀 6
+      - 137.59.52.107:33992
+      - 🇮🇩 印度尼西亚
+      - 137.59.52.107:39772 3
+      - 🇸🇬 新加坡 🚀 7
+      - 🇸🇬 新加坡 🚀 8
+      - 🇸🇬 新加坡 🚀 9
+      - 🇸🇬 新加坡 🚀 10
+      - 🇸🇬 新加坡 🚀 11
+      - 🇸🇬 新加坡 🚀 12
+      - 🇨🇳 高速-tw 2
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1732
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1738
-      - Relay_ |29.90Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1598 |27.67Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1731
-      - 🇭🇰 HK_1728
-      - 🇳🇱 Pool_🇳🇱NL_2451
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_2444 |15.99Mb
-      - Relay_ |23.02Mb
-      - IN_1989
-      - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1604 |20.39Mb
-      - Relay_ |26.80Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_1601 |22.29Mb
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_588
-      - "|25.71Mb"
-      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_575
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_4166
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_587
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_514
-      - Relay_ |29.21Mb
+      - 🇨🇳 中国
+      - 🇨🇳 中国 2
+      - "|35.82Mb"
+      - 🇭🇰 *Shanghai-Hong Kong*22
+      - "*Shanghai-Taipei*22"
+      - "*Shanghai-Tokyo*22"
+      - "*Shanghai-LAX*22"
+      - 🇨🇳 中国台湾
+      - 🇭🇰 中国香港
+      - 🇨🇳 中国 3
+      - 🇯🇵 日本
+      - "*Shanghai-Seoul*22"
+      - 🇰🇵 朝鲜
+      - 🇭🇰 香港 🚀
+      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_765
+      - 🇭🇰 Transit*Shanghai-HK*CN2-GIA04
+      - 🇭🇰 香港 🚀 2
+      - 🇭🇰 香港 🚀 3
+      - 高速-kr
+      - 🇭🇰 HK_1852
+      - 🇨🇳 台湾
+      - 🇨🇳 高速-tw
+      - 🇯🇵 日本 2
+      - 🇭🇰 高速-hk
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇭🇰 HK_28 |25.61Mb
+      - 🇨🇳 台湾 3
+      - 45.66.164.121:811
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1707
+      - 🇭🇰 高速-hk 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本 4
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2848
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 🇰🇷 CN-🇰🇷KR_247
+      - 🇸🇬 SG-🇸🇬SG_591
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 104.200.131.245:49396
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 104.200.131.245:33998
+      - 185.124.240.159:38742
+      - 104.200.131.245:33998 2
+      - 185.124.240.149:39772
+      - 185.124.240.149:39772 2
+      - 185.124.240.159:38742 2
+      - 185.124.240.159:38742 3
+      - 185.124.240.159:33998
+      - 104.200.131.245:31944
+      - 104.200.131.245:31944 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 🇺🇸 美国 🚀
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇺🇸 美国 🚀 2
+      - 185.124.240.159:33998 2
+      - https://www.mattkaydiary.com
+      - 34.244.63.147:803
+      - 🇺🇸 US_897
+      - 185.124.240.159:49126
+      - 🇺🇸 US
+      - 185.124.240.159:33998 3
+      - 🇺🇸 US_899
+      - https://www.mattkaydiary.com 2
+      - 🇺🇸 US 2
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 🚀 3
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 加利福尼亚 3
+      - 🇺🇸 US-🇺🇸US_898
+      - https://www.mattkaydiary.com 3
+      - https://www.mattkaydiary.com 4
+      - 🇺🇸 Pool_🇺🇸US_4205
+      - 🇺🇸 美国 加利福尼亚 4
+      - 167.88.63.29:806
+      - 207.244.67.149:39772
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4055
+      - https://www.mattkaydiary.com 5
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4198
+      - 207.244.67.149:39772 2
+      - 🇺🇸 美国 🚀 4
+      - 198.147.22.87:31757
+      - 🇺🇸 US_4204
+      - 🇭🇰 US-🇭🇰HK_909
+      - 🇺🇸 US_4202
+      - 🇺🇸 美国 加利福尼亚 5
+      - 🇺🇸 美国 加利福尼亚 6
+      - 🇺🇸 美国
+      - 欧洲 🚀
+      - 207.244.67.149:33998
+      - 89.43.107.130:809
+      - 🇺🇸 (已坚挺3天)美国
+      - 207.244.67.149:39772 3
+      - 🇩🇪 德国 🚀
+      - 207.244.67.149:33998 2
+      - 🇺🇸 美国 🚀 5
+      - "|15.13Mb"
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_910
+      - 🇺🇸 (已坚挺20天)美国
+      - 34.244.63.147:804
+      - 🇺🇸 美国 加利福尼亚 7
+      - 🇷🇺 俄罗斯
+      - 138.199.42.163:31572
+      - 34.244.63.147:812
+      - 198.147.22.87:33992
+      - 34.244.63.147:809
+      - 34.244.63.147:804 2
+      - 198.147.22.87:31572
+      - 34.244.63.147:812 2
+      - 198.147.22.87:40093
+      - 198.147.22.87:31572 2
+      - 139.28.176.53:31572
+      - 34.244.63.147:802
+      - 34.244.63.147:801
+      - 198.147.22.87:33998
+      - 198.147.22.87:31757 2
+      - 198.147.22.87:40093 2
+      - 欧洲 🚀 2
+      - 185.124.240.149:39772 3
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2078
+      - 🇫🇮 芬兰 🚀
+      - 🇯🇵 |【直连】NRT/东京 A - 1
+      - 🇩🇪 德国 🚀 2
+      - Relay_ |29.45Mb
+      - 🇯🇵 日本 5
+      - 198.147.22.87:33998 2
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 198.147.22.87:31572 3
+      - 139.28.176.53:31572 2
+      - 198.147.22.87:31572 4
+      - 🇯🇵 |【直连】NRT/东京 A - 4
+      - 198.147.22.87:40093 3
+      - 🇯🇵 |【直连】NRT/东京 B - 2
+      - 198.147.22.87:31757 3
+      - 198.147.22.87:33148
+      - 198.147.22.87:33148 2
+      - 45.87.214.253:49126
+      - 198.147.22.87:33992 2
+      - 🇳🇱 荷兰 阿姆斯特丹 2
+      - 🇳🇱 荷兰 阿姆斯特丹 3
+      - 🇳🇱 NL_488
+      - 🇳🇱 荷兰 阿姆斯特丹 4
+      - 🇳🇱 荷兰 阿姆斯特丹 5
+      - 🇳🇱 荷兰 阿姆斯特丹 6
+      - 🇳🇱 荷兰 阿姆斯特丹 7
+      - 🇳🇱 荷兰 阿姆斯特丹 8
+      - 🇳🇱 荷兰 阿姆斯特丹 9
+      - 🇫🇮 芬兰 🚀 2
+      - 🇳🇱 荷兰 阿姆斯特丹 10
+      - 194.41.112.14:39772
+      - 135.125.248.215:811
+      - 146.59.0.168:801
+      - 146.59.0.168:809
+      - 🇳🇱 NL_500
+      - 🇳🇱 荷兰 阿姆斯特丹 11
+      - 🇳🇱 Pool_🇳🇱NL_2510
+      - 🇳🇱 荷兰 阿姆斯特丹 12
+      - 🇳🇱 荷兰 阿姆斯特丹 13
+      - 🇳🇱 NL_480
+      - 🇳🇱 荷兰 阿姆斯特丹 14
+      - 🇰🇷 韩国
+      - 🇳🇱 荷兰 阿姆斯特丹 15
+      - 🇳🇱 荷兰 阿姆斯特丹 16
+      - 🇳🇱 荷兰 阿姆斯特丹 17
+      - 🇳🇱 荷兰 阿姆斯特丹 18
+      - 🇨🇦 加拿大
+      - 194.41.112.14:39772 2
+      - 🇳🇱 Pool_🇳🇱NL_2512
+      - 🇳🇱 荷兰 阿姆斯特丹 19
+      - 🇳🇱 荷兰 阿姆斯特丹 20
+      - 195.47.194.79:35294
+      - 🇳🇱 荷兰 阿姆斯特丹 21
+      - 62.212.239.51:43923
+      - 🇺🇸 Pool_🇺🇸US_4183
+      - 62.212.239.53:43923
+      - 🇳🇱 荷兰 阿姆斯特丹 22
+      - 🇺🇸 Pool_🇺🇸US_4182
+      - 🇳🇱 荷兰 阿姆斯特丹 23
+      - 🇳🇱 荷兰 阿姆斯特丹 24
+      - 🇳🇱 荷兰 阿姆斯特丹 25
+      - 🇳🇱 荷兰 阿姆斯特丹 26
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 🚀 6
+      - 🇳🇱 荷兰 阿姆斯特丹 27
+      - 🇳🇱 荷兰 阿姆斯特丹 28
+      - 🇳🇱 荷兰 阿姆斯特丹 29
+      - 🇳🇱 荷兰 阿姆斯特丹 30
+      - 🇺🇸 US_912
+      - 🇬🇧 英国
+      - 🇳🇱 荷兰 阿姆斯特丹 31
+      - 154.127.50.138:31572
+      - 🇩🇪 德国
+      - 🇸🇬 新加坡 🚀
+      - 🇸🇬 新加坡 🚀 2
+      - 🇸🇬 新加坡 🚀 3
+      - 🇸🇬 新加坡 🚀 4
+      - 🇸🇬 新加坡 🚀 5
+      - 137.59.52.107:39772
+      - 137.59.52.107:39772 2
+      - 🇸🇬 新加坡 🚀 6
+      - 137.59.52.107:33992
+      - 🇮🇩 印度尼西亚
+      - 137.59.52.107:39772 3
+      - 🇸🇬 新加坡 🚀 7
+      - 🇸🇬 新加坡 🚀 8
+      - 🇸🇬 新加坡 🚀 9
+      - 🇸🇬 新加坡 🚀 10
+      - 🇸🇬 新加坡 🚀 11
+      - 🇸🇬 新加坡 🚀 12
+      - 🇨🇳 高速-tw 2
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -198,26 +1571,220 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1732
-      - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1738
-      - Relay_ |29.90Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1598 |27.67Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1731
-      - 🇭🇰 HK_1728
-      - 🇳🇱 Pool_🇳🇱NL_2451
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_2444 |15.99Mb
-      - Relay_ |23.02Mb
-      - IN_1989
-      - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1604 |20.39Mb
-      - Relay_ |26.80Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_1601 |22.29Mb
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_588
-      - "|25.71Mb"
-      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_575
-      - 🇸🇬 Relay_🇺🇸US-🇸🇬SG_4166
-      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_587
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_514
-      - Relay_ |29.21Mb
+      - 🇨🇳 中国
+      - 🇨🇳 中国 2
+      - "|35.82Mb"
+      - 🇭🇰 *Shanghai-Hong Kong*22
+      - "*Shanghai-Taipei*22"
+      - "*Shanghai-Tokyo*22"
+      - "*Shanghai-LAX*22"
+      - 🇨🇳 中国台湾
+      - 🇭🇰 中国香港
+      - 🇨🇳 中国 3
+      - 🇯🇵 日本
+      - "*Shanghai-Seoul*22"
+      - 🇰🇵 朝鲜
+      - 🇭🇰 香港 🚀
+      - 🇷🇴 Relay_🇨🇳CN-🇷🇴RO_765
+      - 🇭🇰 Transit*Shanghai-HK*CN2-GIA04
+      - 🇭🇰 香港 🚀 2
+      - 🇭🇰 香港 🚀 3
+      - 高速-kr
+      - 🇭🇰 HK_1852
+      - 🇨🇳 台湾
+      - 🇨🇳 高速-tw
+      - 🇯🇵 日本 2
+      - 🇭🇰 高速-hk
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇭🇰 HK_28 |25.61Mb
+      - 🇨🇳 台湾 3
+      - 45.66.164.121:811
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1707
+      - 🇭🇰 高速-hk 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本 4
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2848
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 🇰🇷 CN-🇰🇷KR_247
+      - 🇸🇬 SG-🇸🇬SG_591
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 104.200.131.245:49396
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 104.200.131.245:33998
+      - 185.124.240.159:38742
+      - 104.200.131.245:33998 2
+      - 185.124.240.149:39772
+      - 185.124.240.149:39772 2
+      - 185.124.240.159:38742 2
+      - 185.124.240.159:38742 3
+      - 185.124.240.159:33998
+      - 104.200.131.245:31944
+      - 104.200.131.245:31944 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 🇺🇸 美国 🚀
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇺🇸 美国 🚀 2
+      - 185.124.240.159:33998 2
+      - https://www.mattkaydiary.com
+      - 34.244.63.147:803
+      - 🇺🇸 US_897
+      - 185.124.240.159:49126
+      - 🇺🇸 US
+      - 185.124.240.159:33998 3
+      - 🇺🇸 US_899
+      - https://www.mattkaydiary.com 2
+      - 🇺🇸 US 2
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 🚀 3
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 加利福尼亚 3
+      - 🇺🇸 US-🇺🇸US_898
+      - https://www.mattkaydiary.com 3
+      - https://www.mattkaydiary.com 4
+      - 🇺🇸 Pool_🇺🇸US_4205
+      - 🇺🇸 美国 加利福尼亚 4
+      - 167.88.63.29:806
+      - 207.244.67.149:39772
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4055
+      - https://www.mattkaydiary.com 5
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4198
+      - 207.244.67.149:39772 2
+      - 🇺🇸 美国 🚀 4
+      - 198.147.22.87:31757
+      - 🇺🇸 US_4204
+      - 🇭🇰 US-🇭🇰HK_909
+      - 🇺🇸 US_4202
+      - 🇺🇸 美国 加利福尼亚 5
+      - 🇺🇸 美国 加利福尼亚 6
+      - 🇺🇸 美国
+      - 欧洲 🚀
+      - 207.244.67.149:33998
+      - 89.43.107.130:809
+      - 🇺🇸 (已坚挺3天)美国
+      - 207.244.67.149:39772 3
+      - 🇩🇪 德国 🚀
+      - 207.244.67.149:33998 2
+      - 🇺🇸 美国 🚀 5
+      - "|15.13Mb"
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_910
+      - 🇺🇸 (已坚挺20天)美国
+      - 34.244.63.147:804
+      - 🇺🇸 美国 加利福尼亚 7
+      - 🇷🇺 俄罗斯
+      - 138.199.42.163:31572
+      - 34.244.63.147:812
+      - 198.147.22.87:33992
+      - 34.244.63.147:809
+      - 34.244.63.147:804 2
+      - 198.147.22.87:31572
+      - 34.244.63.147:812 2
+      - 198.147.22.87:40093
+      - 198.147.22.87:31572 2
+      - 139.28.176.53:31572
+      - 34.244.63.147:802
+      - 34.244.63.147:801
+      - 198.147.22.87:33998
+      - 198.147.22.87:31757 2
+      - 198.147.22.87:40093 2
+      - 欧洲 🚀 2
+      - 185.124.240.149:39772 3
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2078
+      - 🇫🇮 芬兰 🚀
+      - 🇯🇵 |【直连】NRT/东京 A - 1
+      - 🇩🇪 德国 🚀 2
+      - Relay_ |29.45Mb
+      - 🇯🇵 日本 5
+      - 198.147.22.87:33998 2
+      - 🇳🇱 荷兰 阿姆斯特丹
+      - 198.147.22.87:31572 3
+      - 139.28.176.53:31572 2
+      - 198.147.22.87:31572 4
+      - 🇯🇵 |【直连】NRT/东京 A - 4
+      - 198.147.22.87:40093 3
+      - 🇯🇵 |【直连】NRT/东京 B - 2
+      - 198.147.22.87:31757 3
+      - 198.147.22.87:33148
+      - 198.147.22.87:33148 2
+      - 45.87.214.253:49126
+      - 198.147.22.87:33992 2
+      - 🇳🇱 荷兰 阿姆斯特丹 2
+      - 🇳🇱 荷兰 阿姆斯特丹 3
+      - 🇳🇱 NL_488
+      - 🇳🇱 荷兰 阿姆斯特丹 4
+      - 🇳🇱 荷兰 阿姆斯特丹 5
+      - 🇳🇱 荷兰 阿姆斯特丹 6
+      - 🇳🇱 荷兰 阿姆斯特丹 7
+      - 🇳🇱 荷兰 阿姆斯特丹 8
+      - 🇳🇱 荷兰 阿姆斯特丹 9
+      - 🇫🇮 芬兰 🚀 2
+      - 🇳🇱 荷兰 阿姆斯特丹 10
+      - 194.41.112.14:39772
+      - 135.125.248.215:811
+      - 146.59.0.168:801
+      - 146.59.0.168:809
+      - 🇳🇱 NL_500
+      - 🇳🇱 荷兰 阿姆斯特丹 11
+      - 🇳🇱 Pool_🇳🇱NL_2510
+      - 🇳🇱 荷兰 阿姆斯特丹 12
+      - 🇳🇱 荷兰 阿姆斯特丹 13
+      - 🇳🇱 NL_480
+      - 🇳🇱 荷兰 阿姆斯特丹 14
+      - 🇰🇷 韩国
+      - 🇳🇱 荷兰 阿姆斯特丹 15
+      - 🇳🇱 荷兰 阿姆斯特丹 16
+      - 🇳🇱 荷兰 阿姆斯特丹 17
+      - 🇳🇱 荷兰 阿姆斯特丹 18
+      - 🇨🇦 加拿大
+      - 194.41.112.14:39772 2
+      - 🇳🇱 Pool_🇳🇱NL_2512
+      - 🇳🇱 荷兰 阿姆斯特丹 19
+      - 🇳🇱 荷兰 阿姆斯特丹 20
+      - 195.47.194.79:35294
+      - 🇳🇱 荷兰 阿姆斯特丹 21
+      - 62.212.239.51:43923
+      - 🇺🇸 Pool_🇺🇸US_4183
+      - 62.212.239.53:43923
+      - 🇳🇱 荷兰 阿姆斯特丹 22
+      - 🇺🇸 Pool_🇺🇸US_4182
+      - 🇳🇱 荷兰 阿姆斯特丹 23
+      - 🇳🇱 荷兰 阿姆斯特丹 24
+      - 🇳🇱 荷兰 阿姆斯特丹 25
+      - 🇳🇱 荷兰 阿姆斯特丹 26
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 🚀 6
+      - 🇳🇱 荷兰 阿姆斯特丹 27
+      - 🇳🇱 荷兰 阿姆斯特丹 28
+      - 🇳🇱 荷兰 阿姆斯特丹 29
+      - 🇳🇱 荷兰 阿姆斯特丹 30
+      - 🇺🇸 US_912
+      - 🇬🇧 英国
+      - 🇳🇱 荷兰 阿姆斯特丹 31
+      - 154.127.50.138:31572
+      - 🇩🇪 德国
+      - 🇸🇬 新加坡 🚀
+      - 🇸🇬 新加坡 🚀 2
+      - 🇸🇬 新加坡 🚀 3
+      - 🇸🇬 新加坡 🚀 4
+      - 🇸🇬 新加坡 🚀 5
+      - 137.59.52.107:39772
+      - 137.59.52.107:39772 2
+      - 🇸🇬 新加坡 🚀 6
+      - 137.59.52.107:33992
+      - 🇮🇩 印度尼西亚
+      - 137.59.52.107:39772 3
+      - 🇸🇬 新加坡 🚀 7
+      - 🇸🇬 新加坡 🚀 8
+      - 🇸🇬 新加坡 🚀 9
+      - 🇸🇬 新加坡 🚀 10
+      - 🇸🇬 新加坡 🚀 11
+      - 🇸🇬 新加坡 🚀 12
+      - 🇨🇳 高速-tw 2
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -5,9 +5,3 @@ chao
 ji
 nan
 ding
-zai
-ding
-zai
-ding
-zai
-ding

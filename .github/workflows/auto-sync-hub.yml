@@ -14,8 +14,8 @@ jobs:
     - name: Mirror Github to Gitee with white list
       uses: Yikun/hub-mirror-action@master
       with:
-        src: github/Squirrel223
-        dst: gitee/squirrel223
+        src: https://github.com/Squirrel223/Selfuse.git
+        dst: https://github.com/Squirrel223/Selfuse.git
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token:  ${{ secrets.ACCESS_TOKEN }}
         force_update: true

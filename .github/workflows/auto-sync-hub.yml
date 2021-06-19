@@ -18,6 +18,5 @@ jobs:
         dst: gitee/squirrel223
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token:  ${{ secrets.ACCESS_TOKEN }}
-        static_list: 'https://gitee.com/squirrel223/Selfuse'
         force_update: true
         debug: true

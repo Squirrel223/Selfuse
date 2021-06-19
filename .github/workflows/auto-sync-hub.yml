@@ -1,7 +1,8 @@
 # 通过 Github actions， 在 Github 仓库的每一次 commit 后自动同步到 Gitee 上
-name:sync2gite
+on:
+  workflow_dispatch:
 
-on:[push,delete,create]
+name: Mirror GitHub Selected Repos to Gitee
 
 jobs:
   run:
